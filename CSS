@@ -1,0 +1,76 @@
+header{
+    height:75px;
+    background-color:slategray;
+    width: auto;
+}
+nav{
+    height:50px;
+    background-color:bisque;
+    width: auto;
+}
+
+body{
+    background-color:white;
+}
+img{
+    transform:rotate(90deg);
+}
+
+
+.main{
+    background-color:slategray;
+    margin-top:100px;
+    width: auto;
+    height:800px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+#video{
+    align-content: center;
+    background-color:black;
+    width:auto;
+    height: 500px;
+    
+}
+
+#left{
+    background-color:darkgray;
+    float: left;
+    width:400px;
+    height:600px;
+    margin:5px;
+    margin-left: 29px;
+    margin-right:50px;
+}
+
+#center{
+    background-color:darkgray;
+    float: left;
+    width:400px;
+    height:600px;
+    margin:5px;
+}
+
+#right{
+    background-color:darkgray;
+    float: left;
+    width:400px;
+    height:600px;
+    margin:5px;
+    margin-left:50px;
+}
+a[href^="tel:"] {
+
+color: rgb(102,102,153);
+
+text-decoration: none;
+
+margin-right: 0.5em;
+
+}
+
+nav {
+    display: block;
+	
+}
