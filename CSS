@@ -1,21 +1,80 @@
-header{
-    height:75px;
-    background-color:slategray;
-    width: auto;
+#banner {
+    background: black;
+    border: 4px solid #F3774D;
+    color: white;
+    margin-bottom: 2px;
 }
-nav{
-    height:50px;
-    background-color:bisque;
-    width: auto;
+
+figcaption {
+    width: 240px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+#contact {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.phone {
+    margin: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
+#social {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#search {
+    position: absolute;
+    bottom: 5px;
+    right: 40px;
+}
+
+#text {
+    width: 100px;
+}
+
+input[type="text"] {
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    background-color: transparent;
+    background: url('image/search.png') no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    height: 25px; /*height of the background image*/
+    width: 28px; /*width of the background image*/
+    border: none;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+nav {
+    background: #808080;
+    border: 6px groove #2ABDC7;
+}
+
+    nav a {
+        margin: 5px;
+        color: white;
+    }
+
+#inner-border {
+    border: 3px inset #B0B0B0;
 }
 
 body{
     background-color:white;
 }
-img{
-    transform:rotate(90deg);
-}
-
 
 .main{
     background-color:slategray;
@@ -60,6 +119,7 @@ img{
     margin:5px;
     margin-left:50px;
 }
+
 a[href^="tel:"] {
 
 color: rgb(102,102,153);
@@ -68,9 +128,4 @@ text-decoration: none;
 
 margin-right: 0.5em;
 
-}
-
-nav {
-    display: block;
-	
 }
