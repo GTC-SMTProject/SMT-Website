@@ -6,6 +6,7 @@
     border: 4px solid #F3774D;
     color: white;
     margin-bottom: 2px;
+    z-index: -1;
 }
 
 figcaption {
@@ -13,6 +14,17 @@ figcaption {
     text-align: center;
     margin-top: 5px;
     font-size: 18px;
+    z-index: 1;
+}
+
+#headerCenter{
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 500px;
+    margin-right: 500px;
+    z-index: 2;
+    clear: both;
+    font-size: 25px;
 }
 
 #contact {
@@ -76,15 +88,14 @@ nav {
     border: 3px inset #B0B0B0;
 }
 
-header { 
-
-}
 
 #arrow{
     text-align: center;
-    margin-top: -35px;
+    margin-top: -75px;
+    z-index: 1;
     
 }
+
 body{
     background-color:white;
 }
@@ -92,9 +103,10 @@ body{
 .main{    
     margin-top:100px;
     width: auto;
-    height:800px;
+    height:900px;
     margin-left:0px;
     margin-right:0px;
+   
 }
 
 #video{
@@ -104,6 +116,7 @@ body{
     background-color: black;
     width: auto;
     height: 720px;
+    z-index: -1;
 }
 
 #left{
@@ -115,7 +128,8 @@ body{
     height:600px;
     margin:5px;
     margin-left: 9px;
-    margin-right:160px;
+    margin-right:305px;
+    box-shadow: 15px 15px 15px grey;
 }
 
 #center{
@@ -127,7 +141,8 @@ body{
     height:600px;
     margin: 5px;
     margin-left: 5px;
-    margin-right: 150px;
+    margin-right: 315px;
+    box-shadow: 15px 15px 15px grey;
 }
 
 #right{
@@ -139,6 +154,7 @@ body{
     height:600px;
     margin:5px;
     margin-left:0px;
+    box-shadow: 15px 15px 15px grey;
     
 }
 
@@ -167,15 +183,17 @@ li{
 */
 
 #BioBox{
-    background: linear-gradient(to bottom, #ffc578 0%,#fb9d23 100%); 
+    background: linear-gradient(darkgray, #F3774D); 
     z-index: -1;
     float: left;
     margin: 10px;
-    width: 810px;
+    width: 875px;
     height: 800px;
     text-align: center;
     padding: 0px;
     color: black;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 20px;
             
 }
 
@@ -184,11 +202,11 @@ li{
     border: 6px inset ;
     outline: 5px solid black;
     float: right;
-    width:375px;
+    width:420px;
     height:689px;
     margin:5px;
-    margin-left: 5px;
-    margin-right:21px;
+    margin-left: 0px;
+    margin-right:15px;
     margin-top: 5px;
 }
 
@@ -198,38 +216,58 @@ li{
     outline: 5px solid black;
     margin: 10px;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-bottom: 0px;
     
 }
 
-#BioBox > img{
-    
+#CheckList{
+    background-color: white;
+    width: 907px;
+    height: 690px;
+    margin: 15px;
+    border: 6px inset ;
+    outline: 5px solid black;
+    margin-top: 26px;
     
 }
-
 
 
 #right2{
-    background: linear-gradient(to bottom, #ffc578 0%,#fb9d23 100%);
+    background: linear-gradient(darkgray, #F3774D);
     float: right;
-    width:650px;
-    height:805px;
+    width:950px;
+    height:801px;
     margin:10px;
     margin-left: 5px;
-    
+    text-align: center;
+    padding-bottom: 0px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 
+#gradient1 {
+    height: 170px;
+    background: #F3774D; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(darkgray,#F3774D ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(darkgray, #F3774D); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(darkgray, #F3774D); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(darkgray, #F3774D); /* Standard syntax (must be last) */
+    
+}
 footer {
     clear: both;
-	margin: 5px;
-	height: 150px;
-	width:800px;
-	background-color:darkgray;
-	color:rgb(102,102,153);
+	height: 170px;
+	width:1875px;
+	//background-color:darkgray;
+	//color:rgb(102,102,153);
 	text-align:center;
-	}
+	//border-width:5px;
+	//border-color:black;
+		}
+#footerArea{
+    box-shadow: 10px 10px 5px grey;
+}
 
 
 a[href^="tel:"] {
